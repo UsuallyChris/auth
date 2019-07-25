@@ -5,6 +5,10 @@ const dotenv = require('dotenv');
 // dotenv
 dotenv.config();
 
+// Passport Imports and Configs
+const passportSetup = require('./config/passport-setup');
+
+
 // Route Imports
 const auth = require('./routes/auth-routes');
 
